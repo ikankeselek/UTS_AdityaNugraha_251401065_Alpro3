@@ -1,5 +1,5 @@
 # 🖥️ UTS Algoritma dan Pemrograman (AP3)
- Semester Genap T.A. 2025/2026
+### Semester Genap T.A. 2025/2026
 **IKLC | Ilmu Komputer | Fasilkom-TI | Universitas Sumatera Utara**
 
 ---
