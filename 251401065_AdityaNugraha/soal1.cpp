@@ -86,6 +86,30 @@ int main() {
 
 }
 
+/*
+Algoritma :
+
+1. Program meminta input nomor kartu digital dalam bentuk string
+2. Program menghitung panjang nomor kartu dan mengambil 2 digit pertama sebagai awalan
+3. Program menentukan jenis kartu berdasarkan panjang dan awalan:
+   - 14 digit dan awalan "65"  = NUSANTARA
+   - 16 digit dan awalan "77" atau "78" = GARUDA
+   - 15 digit dan awalan "91"  = MERDKA
+   - Jika tidak sesuai, kartu dianggap tidak dikenal dan tidak valid
+
+4. Jika jenis kartu dikenali, program melakukan validasi menggunakan algoritma modifikasi Luhn:
+   - Mulai dari digit paling kanan, jumlahkan digit yang tidak dikalikan
+   - Mulai dari digit kedua dari belakang, kalikan setiap digit dengan 2
+   - Jika hasil perkalian lebih dari 9, jumlahkan kedua digit hasilnya
+   - Tambahkan hasil tersebut ke total penjumlahan
+
+5. Setelah semua digit diproses, program memeriksa:
+   - Jika total habis dibagi 10, maka nomor kartu valid
+   - Jika tidak, maka nomor kartu tidak vali
+
+6. Program mengoutputkan hasil
+*/
+
 //Code ini saya tes di vscode saya, hasiln pada test case c dan d error, tetapi pada saat saya test di online compiler, codenya berjalan tanpa masalah.
 //Mungkin ada kesalahan dengan compiler yang saya install, jika pada saat mengetes code saya error, boleh di tes menggunakan online compiler
 
