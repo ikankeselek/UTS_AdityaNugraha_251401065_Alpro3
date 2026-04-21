@@ -65,4 +65,6 @@ int main() {
 //saya menjadikan kode parkirnya menjadi string agar lebih mudah dipisah pisah menggunakan substr
 //untuk mengubah KP menjadi integer, saya menggunakan stoi yang mengubah string ke integer
 //untuk menampilkan waktu masuk dan keluar, awalnya saya ingin menggunakan if else, tetapi terlalu panjang, jaddi saya gunakan operator ternary
-//untuk menghitung durasi, saya 
+//untuk menghitung durasi, saya ubah jam masuk dan keluar jadi menit, lalu durasi = keluar - masuk
+//untuk mengatasi hasil negatif, saya menambahkan logika : kalau durasi < 0 maka ditambah 1440 (24 jam), jadi nilainya tetap tapi gk negatif
+//agar bisa sama dengan test case b, durasi saya bulatkan ke atas
