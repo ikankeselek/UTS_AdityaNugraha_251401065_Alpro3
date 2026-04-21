@@ -83,6 +83,51 @@ int main() {
 
 }
 
+/*
+algoritma : 
+
+1. Program meminta input kode transaksi 8 digit.
+2. Program memisahkan kode transaksi menjadi:
+   - 2 digit pertama  -> kode jenis hari
+   - 2 digit berikutnya -> kode member
+   - 4 digit terakhir -> jumlah belanja dalam kelipatan Rp100.000
+
+3. Program menampilkan jenis hari berdasarkan kode:
+   - "01" -> Hari Kerja
+   - "02" -> Akhir Pekan
+   - "03" -> Hari Libur Nasional
+   - selain itu -> input salah
+
+4. Program menampilkan jenis member berdasarkan kode:
+   - 01 = Pelanggan Biasa
+   - 02 = Member Silver
+   - 03 = Member Gold
+   - selain itu = salah masuk tu
+
+5. Program mengubah nilai belanja dari kelipatan Rp100.000 menjadi nminal rupiah
+   dengan cara mengalikan 100.000
+
+6. Program menghitung poin berdasarkan kombinasi jenis hari dan jenis member:
+   - Hari kerja:
+     - Biasa  = 1 poin per Rp100000
+     - Silver = 2 poin per Rp100000
+     - Gold   = 3 poin per Rp100000
+   - Akhir pekan:
+     - Biasa  = 2 poin per Rp100000
+     - Silver = 3 poin per Rp100000
+     - Gold   = 5 poin per Rp100000
+   - Hari libur nasional:
+     - Biasa  = 3 poin per Rp100000
+     - Silver = 5 poin per Rp100000
+     - Gold   = 7 poin per Rp100000
+
+7. Program menghitung total poin dengan rumus:
+   total poin = jumlah belanja / 100000 × poin per unit
+
+8. Program menampilkan total poin yang diperoleh pelanggan.
+*/
+
+
 //untuk kode ini lancar jaya di vscode maupun online compiler
 
 //ini mirip sekali dengan soal sebelumnya, tetapi lebih mudah pada bagian logika itung itungannya
